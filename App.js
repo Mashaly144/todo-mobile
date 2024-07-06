@@ -52,7 +52,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2E0249',
+    backgroundColor: '#290249',
     padding: 50,
   },
   inputContent: {
