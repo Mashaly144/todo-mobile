@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const Header = () => {
   return (
     <View style={styles.header}>
-      <Text style={styles.title}>My App Header</Text>
+      <Text style={styles.title}>My Todoiee</Text>
     </View>
   );
 };
@@ -11,7 +11,7 @@ const Header = () => {
 const styles = StyleSheet.create({
   header: {
     backgroundColor: '#570A57',
-    padding: 20,
+    padding: 10,
     alignItems: 'center',
   },
   title: {

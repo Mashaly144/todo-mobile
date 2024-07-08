@@ -36,8 +36,8 @@ const App = () => {
         </View>
         <View style={{ flexDirection: 'column', justifyContent: 'flex-start' }}>
           <ScrollView>
-            {AllGoals.map((goal) => (
-              <Text key={goal} style={{ ...styles.text }}>
+            {AllGoals.map((goal, index) => (
+              <Text key={index} style={{ ...styles.text }}>
                 {goal}
               </Text>
             ))}
